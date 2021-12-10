@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 朱自玺
+title: '首页'
 subtitle: '前期追深度，否则会华而不实，后期追广度，否则会坐井观天'
 description: '互联网'
 keywords:
-author: zhuzixi
-language: en
+author: 朱自玺
+language: zh-CN
 timezone: ''
 
 # URL
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,3 +105,5 @@ deploy:
   type: git
   repo: git@github.com:githubzzx/githubzzx.github.io.git
   branch: master
+admin:
+  deployCommand: 'hexo-deploy.bat'
